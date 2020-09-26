@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: Century copperplate;
+}
+
+html{
+    background: white;
+}
+header{
+    position: fixed;
+    height: 400px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/mac.JPG);
+}
+
+ul{
+    position: fixed;
+    left: 60%;
+    top: 2%;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.inner-container{
+    max-width: 900px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+}
+
+.inner-container:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+.inner-container .left-column{
+    width: 50px;
+    height: 100px;
+}
+
+.inner-container .right-column{
+    width: 100%;
+}
+
+.inner-container .left-column .photo{
+    /*height: auto;
+    width: 50px;
+    content: '';
+    position: fixed;
+    left: 300px;
+    top: 10px;
+    height: 4px;
+    width: 4px;
+    z-index: 100;*/
+
+    width: 200px;
+    height: 10px;
+}
+
+.inner-containe .right-column h1 {
+    font-size: 4px;
+    margin-bottom: 10px;
+}
