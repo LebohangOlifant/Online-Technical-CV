@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: Century copperplate;
+}
+
+html{
+	background: gray;
+}
+
+.skills-container {
+  margin-top: 10px;
+  width: 40%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 0px; 
+  padding-bottom: 0px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #4CAF50;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.php {width: 60%; background-color: #000;}
