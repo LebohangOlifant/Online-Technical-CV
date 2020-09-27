@@ -6,13 +6,14 @@
 }
 
 html{
-    background: white;
+    background: gray;
 }
 header{
     position: fixed;
-    height: 400px;
+    height: 350px;
     width: 100%;
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/mac.JPG);
+    z-index: -1;
 }
 
 ul{
@@ -44,7 +45,7 @@ ul li.active a{
 
 .inner-container{
     max-width: 900px;
-    height: 500px;
+    height: 480px;
     padding: 20px;
     border-radius: 10px;
     background-color: #fff;
@@ -59,31 +60,32 @@ ul li.active a{
     box-shadow: 0px 0px 5px 0 #0000002c;
 }
 
-.inner-container .left-column{
+/*.inner-container .left-column{
     width: 50px;
     height: 100px;
+}*/
+
+.inner-container .left-column .photo{
+    position: fixed;
+    left: 300px;
+    top: 250px;
 }
 
 .inner-container .right-column{
-    width: 100%;
-}
-
-.inner-container .left-column .photo{
-    /*height: auto;
     width: 50px;
-    content: '';
-    position: fixed;
-    left: 300px;
-    top: 10px;
-    height: 4px;
-    width: 4px;
-    z-index: 100;*/
-
-    width: 200px;
-    height: 10px;
+    height: 100px;  
 }
 
-.inner-containe .right-column h1 {
+.right-column h1 {
+    position: fixed;
     font-size: 4px;
     margin-bottom: 10px;
+    float: right;
+    left: 50%;
+    padding-left: 500px;
+}
+
+.main span{
+    font-size: 20px;
+    padding-left: 420px;
 }
