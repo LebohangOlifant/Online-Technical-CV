@@ -1,6 +1,6 @@
 * {
-	margin: 0;
-	padding: 0;
+	  margin: 0;
+	  padding: 0;
     box-sizing: border-box;
     font-family: Century copperplate;
 }
@@ -9,20 +9,47 @@ html{
 	background: gray;
 }
 
-.skills-container {
+.Left-Container{
+  position: relative;
+  left: 20%;
   margin-top: 10px;
-  width: 40%;
+}
+
+.skl{
+	  position: relative;
+    max-width: 800px;
+    height: 400px;
+    background-color: #fff;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+}
+
+.Right-container{
+  position: relative;
+  margin-top: -297px;
+  left: 60%;
+}
+
+.skl .skills-container {
+  margin-top: 10px;
+  width: 30%;
   background-color: #ddd;
 }
 
 .skills {
-  text-align: right;
-  padding-top: 0px; 
-  padding-bottom: 0px; 
+  text-align: right; 
   color: white; 
 }
 
-.html {width: 90%; background-color: #4CAF50;} 
-.css {width: 80%; background-color: #2196F3;} 
-.js {width: 65%; background-color: #f44336;} 
-.php {width: 60%; background-color: #000;}
+/* start of skills styling*/
+.word {width: 90%;background-color: #4CAF50;} 
+.python {width: 80%; background-color: #4CAF50;} 
+.java {width: 65%; background-color: #4CAF50;} 
+.photoshop {width: 60%; background-color: #4CAF50;}
+.comunication {width: 75%; background-color: #4CAF50;}
+.organization {width: 80%; background-color: #4CAF50;}
+.motivation {width: 90%; background-color: #4CAF50;}
+
+/* End of skills styling*/

@@ -33,7 +33,7 @@ header{
 }
 
 .main ul li a{
-	position: relative;
+	position: 50%;
 	padding: 9px 20px;
 	color: #fff;
 	display: inline-block;
@@ -73,5 +73,3 @@ header{
     left: 50%;
     top: 10%; 
 }
-
-
