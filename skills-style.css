@@ -9,3 +9,94 @@ html{
 	background: gray;
 }
 
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px; 
+}
+
+.container {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+/*Start of skills section*/
+.skl{
+  position: relative;
+  max-width: 900px;
+  height: 400px;
+  background-color: #fff;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin: auto;
+  z-index: 1;
+}
+
+.Left-Container{
+  position: relative;
+  left: 1%;
+}
+
+.Right-container{
+  position: relative;
+  bottom: 75%;
+  left: 50%;
+}
+
+.skl .skills-container {
+  margin-top: 10px;
+  width: 30%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right; 
+  color: white; 
+}
+
+/* start of skills bar styling*/
+.word {width: 90%;background-color: #4CAF50;} 
+.python {width: 80%; background-color: #4CAF50;} 
+.java {width: 65%; background-color: #4CAF50;} 
+.photoshop {width: 60%; background-color: #4CAF50;}
+.comunication {width: 75%; background-color: #4CAF50;}
+.organization {width: 80%; background-color: #4CAF50;}
+.motivation {width: 90%; background-color: #4CAF50;}
+
+/* End of skills bar styling*/
+
+.journey{
+  text-align: center;
+}
+
+body {
+  background-color: #d8d8d8;
+}
+h1 {
+text-align: center;
+}
+
+/* Start of styling social icons */
+.fa {
+  position: relative;
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.5s;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fa:hover {opacity: 0.7;transform: rotate(0deg) skew(0deg) translate(0, -10px)}
+
+.fa-facebook {background: #3B5998;color: white;}
+.fa-telegram {background: #55ACEE;color: white;}
+.fa-github{background: gray;color: white;}
+.fa-whatsapp{background: chartreuse;color: white;}
+
+/* End of styling social icons */
