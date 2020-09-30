@@ -10,15 +10,13 @@ html{
 	background: gray;
 }
 
+/*Start of header section*/
+
 header{
-	position: absolute;
-	width: 100%;
-	height: 400px;
-	padding: 0 80px;
+	height: 100px;
 	justify-content: space-between;
 	align-items: center;
 	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/mac.jpg);
-	z-index: 1000;
 }
 
 .main ul{
@@ -51,42 +49,259 @@ header{
     color: #000;
 }
 
+/*End of header section*/
+
+/*Start of the conatiner section in the first page */
 .inner-container{
 	position: fixed;
-    max-width: 900px;
-    height: 480px;
-    padding: 40px 50px;
-    border-radius: 10px;
+    height: 75%;
+	border-radius: 10px;
+	margin: auto;
     background-color: #fff;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 200px 250px;
-    box-shadow: 0px 0px 18px 0 #0000002c;
-	z-index: 1000;
+    width: 70%;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	margin-left: 20%;
 }
 
 .inner-container .right-column{
 	position: absolute;
-    width: 5000px;
-    height: 100px;
-    left: 50%;
-    top: 10%; 
+	display: inline-block;
+    width: 40%;
+	height: 80%;
+	padding: 10px;	
 }
 
-/*start of Buttons*/
+.inner-container .left-column{
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	padding: 10px;
+}
+/*End of the conatiner section in the first page */
 
-.inner-container .right-column .buttons{
+/*start of Buttons in the first page*/
+
+.buttons{
+	position: relative;
 	padding: 10px 30px;
 	text-decoration: none;
 	border: 2px solid red;
 	color: black;
+	margin: center;
 }
 
 .buttons:hover {
 	color: white;
 	background-color: crimson;
 }
+/*End of Buttons in the second page*/
+
+/*Start of introduction in the second page*/
+.intro-left{
+	width: 80%;
+	height: 50%;
+}
+
+.detail-a{
+	display: inline-block;
+	padding-top: 40px;
+	position: relative;
+}
+
+.detail-c{
+	display: inline-block;
+	padding-top: 40px;
+	position: relative;
+	bottom: 14px;
+}
+
+.detail-e{
+	display: inline-block;
+	padding-top: 40px;
+	position: relative;
+	bottom: 16px;
+}
+
+/*End of introduction in the second page*/
+
+/* Container for header and footer in the second page*/
+.container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px; 
+  }
+  
+  /* Container for header and footer  */
+
+  /*Aligning titles to center*/
+  .journey{
+	text-align: center;
+  }
+  
+  h1 {
+  text-align: center;
+  }
+  /*End*/
 
 
-/*End of Buttons
+/*Start of skills section*/
+.skl{
+	position: relative;
+	height: 400px;
+	background-color: #fff;
+	width: 60%;
+	margin: auto;
+	background-color:  rgba(0, 195, 255, 0.33);
+  }
+  
+  .Left-Container{
+	position: relative;
+	padding: 10px;
+	height: 100%;
+  }
+  
+  .Right-container{
+	position: relative;
+	float: right;
+	bottom: 97%;
+	width: 50%;
+  }
+
+  .Right-container .h1{
+	float: right;
+  }
+
+  .p{
+	  float: right;
+  }
+  
+  .skl .skills-container {
+	margin-top: 10px;
+	width: 30%;
+	background-color: #ddd;
+  }
+  
+  .skills {
+	text-align: right; 
+	color: white; 
+  }
+  
+  /* start of skills bar styling*/
+  .word {width: 90%;background-color: rgb(13, 59, 208);} 
+  .python {width: 80%; background-color: rgb(13, 59, 208);} 
+  .java {width: 65%; background-color: rgb(13, 59, 208);} 
+  .photoshop {width: 60%; background-color:rgb(13, 59, 208);}
+  .comunication {width: 75%; background-color: rgb(13, 59, 208);}
+  .organization {width: 80%; background-color: rgb(13, 59, 208);}
+  .motivation {width: 90%; background-color:rgb(13, 59, 208);}
+  
+  /* End of skills bar styling*/
+
+  
+  /* Start of styling social icons */
+  .fa {
+	position: relative;
+	padding: 20px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	background-color: white;
+	transition: 0.5s;
+	box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .fa:hover {opacity: 0.7;transform: rotate(0deg) skew(0deg) translate(0, -10px)}
+  
+  .fa-facebook {background: #3B5998;color: white;}
+  .fa-telegram {background: #55ACEE;color: white;}
+  .fa-github{background: gray;color: white;}
+  .fa-whatsapp{background: chartreuse;color: white;}
+  
+  /* End of styling social icons */
+
+  /* Start of timeline for Education and Experience */
+  .timeline {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+  }
+  
+  .timeline::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	background-color: white;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+  }
+
+  .timeline-container {
+	padding: 10px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+  }
+  
+  .timeline-container::after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: -17px;
+	background-color: white;
+	border: 4px solid #FF9F55;
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+  }
+  
+  .left {
+	left: 0;
+  }
+  
+  .right {
+	left: 50%;
+  }
+  
+  .left::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	right: 30px;
+	border: medium solid white;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent white;
+  }
+  
+  .right::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	left: 30px;
+	border: medium solid white;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent white transparent transparent;
+  }
+  
+  .right::after {
+	left: -16px;
+  }
+  
+  .content {
+	padding: 20px 30px;
+	background-color: white;
+	position: relative;
+	border-radius: 6px;
+  }
+   /* End of timeline for Education and Experience */
