@@ -13,10 +13,10 @@ html{
 /*Start of header section*/
 
 header{
-	height: 100px;
+	height: 500px;
 	justify-content: space-between;
 	align-items: center;
-	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/mac.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)), url(./images/desktop.jpg);
 }
 
 .main ul{
@@ -53,29 +53,35 @@ header{
 
 /*Start of the conatiner section in the first page */
 .inner-container{
-	position: fixed;
-    height: 75%;
+	position: absolute;
+    height: 82%;
 	border-radius: 10px;
-	margin: auto;
     background-color: #fff;
     width: 70%;
 	box-shadow: 0px 0px 18px 0 #0000002c;
-	margin-left: 20%;
+	margin-left: 13%;
+	top: 15%;
 }
 
 .inner-container .right-column{
-	position: absolute;
+	position: fixed;
 	display: inline-block;
-    width: 40%;
-	height: 80%;
-	padding: 10px;	
+    width: 35%;
+	height: 75%;
+	padding: 4%;
 }
 
 .inner-container .left-column{
 	display: inline-block;
-	width: 40%;
+	width: 50%;
 	height: 100%;
-	padding: 10px;
+	padding: 20px;
+}
+
+.photo{
+	width: 80%;
+	height: 80%;
+	margin: 10%;
 }
 /*End of the conatiner section in the first page */
 
@@ -87,7 +93,6 @@ header{
 	text-decoration: none;
 	border: 2px solid red;
 	color: black;
-	margin: center;
 }
 
 .buttons:hover {
@@ -97,30 +102,29 @@ header{
 /*End of Buttons in the second page*/
 
 /*Start of introduction in the second page*/
-.intro-left{
-	width: 80%;
-	height: 50%;
+.intro-content{
+	text-align: center;
+	width: 40%;
+	height: 40%;
+	margin: auto;
 }
 
-.detail-a{
-	display: inline-block;
-	padding-top: 40px;
-	position: relative;
+.introduction{
+	display: inline-flex;
+	padding: 0%;
 }
 
-.detail-c{
-	display: inline-block;
-	padding-top: 40px;
-	position: relative;
-	bottom: 14px;
-}
-
-.detail-e{
-	display: inline-block;
-	padding-top: 40px;
-	position: relative;
-	bottom: 16px;
-}
+.intro-pic {
+	border: 3px solid #ddd;
+	border-radius: 4px;
+	padding: 1%;
+	margin: 5%;
+	width: 20%;
+  }
+  
+  .intro-pic:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
 
 /*End of introduction in the second page*/
 
@@ -130,8 +134,9 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px; 
+	padding: 20px;
   }
+  
   
   /* Container for header and footer  */
 
@@ -153,7 +158,7 @@ header{
 	background-color: #fff;
 	width: 60%;
 	margin: auto;
-	background-color:  rgba(0, 195, 255, 0.33);
+	background-color:  #3ca0d9;
   }
   
   .Left-Container{

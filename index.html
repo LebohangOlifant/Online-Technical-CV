@@ -5,12 +5,16 @@
   	<meta name="viewport " content="width=device-width, initial-scale=1.0">
 	<title>Online Technical CV</title>
 	<link rel="stylesheet" href="style.css">
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
 </head>
 <body>
 	<header>
 		<div class= "main">
 			<ul>
 				<li class="active"><a herf="#">Home</a></li>
+				<li><a href="index1.html">View Details</a></li>
 				<li><a href="#">Profile</a></li>
 				<li><a href="#">Skills</a></li>
 				<li><a href="#">Education</a></li>
@@ -21,24 +25,25 @@
 
 	<div class="inner-container">
 		<div class="left-column">
-        	<img class="photo" width="100%" height="100%" src="./images/LEBZA.JPG" alt=images>
+        	<img class="photo" src="./images/LEBZA.JPG" alt=images>
         </div>
 
         <div class="right-column">
-        <span>Welcome To My CV</span>
-              <h1 class="name"> My name is lebohang Olifant</h1>
-              	<br><br><p>Birthday: 26 November 1999</p>
-              	<br><br><p>Age: 20</p>
-              	<br><br><p>City: Gauteng, RSA</p>
-              	<br><br><p>Interests: Forex trading, Games & Web Developer</p>
-              	<br><br><p>Study: North-west University</p>
-				<br><br><p>Degree: BSC IN INFORMATION TECHONOLOGY</p>
-		   </div>
+        <h2>Welcome To My CV</h2>
+              <br><h2 class="name"> My name is lebohang Olifant</h2>
+              	<br><p>Birthday: 26 November 1999</p>
+              	<br><p>Age: 20</p>
+              	<br><p>City: Gauteng, RSA</p>
+              	<br><p>Interests: Forex trading, Games & Web Developer</p>
+              	<br><p>Study: North-west University</p>
+				<br><p>Degree: BSC IN INFORMATION TECHONOLOGY</p>
+				<br><br><a href="#" class="buttons">Download CV</a>
 
-		   <div>
-			<br><br><a href="index1.html" class="buttons">View Details</a>
-			<a href="#" class="buttons">Download CV</a>
-		</div>
+				<div class="weather-container">
+					<img class="icon">
+					<p class="weather">Hellow Lebza</p>
+					<p class="temp"></p>
+				</div>
 	</div>
 </body>
 </html>
