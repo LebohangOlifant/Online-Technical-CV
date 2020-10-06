@@ -1,15 +1,3 @@
-/*Start of download button functionality*/
-$(document).ready(function(){
-   $('button').click(function(e){
-      e.preventDefault();
-      window.location.href = "CV.pdf"
-   });
-});
-
-/*End of download button functionality*/
-
-
-
 /*Start of API Section*/
 var city = "Vanderbijlpark";
 
