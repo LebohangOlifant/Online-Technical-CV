@@ -2,11 +2,14 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-  	<meta name="viewport " content="width=device-width, initial-scale=1.0">
+	<meta name="viewport " content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<title>Online Technical CV</title>
 	<link rel="stylesheet" href="style.css">
-	
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="index1.html">
+	<script src="app.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3	.5.1.min.js" crossorigin="anonymous"></script>
 	<script src="script.js"></script>
 </head>
 <body>
@@ -29,21 +32,26 @@
         </div>
 
         <div class="right-column">
-        <h2>Welcome To My CV</h2>
-              <br><h2 class="name"> My name is lebohang Olifant</h2>
-              	<br><p>Birthday: 26 November 1999</p>
+		<span class="text1">Welcome</span>
+		<span class="text2">My name is Lebohang Olifant</span>
               	<br><p>Age: 20</p>
               	<br><p>City: Gauteng, RSA</p>
               	<br><p>Interests: Forex trading, Games & Web Developer</p>
               	<br><p>Study: North-west University</p>
 				<br><p>Degree: BSC IN INFORMATION TECHONOLOGY</p>
-				<br><br><a href="#" class="buttons">Download CV</a>
+				</a>
+				<br><br><a href="CV.pdf" class="buttons">Download CV</a>
 
 				<div class="weather-container">
+					<p>Temperature at current location</p>
 					<img class="icon">
-					<p class="weather">Hellow Lebza</p>
+					<p class="weather"></p>
 					<p class="temp"></p>
 				</div>
-	</div>
+
+				<div class="spinner-wrapper">
+					<div class="spinner"></div>
+				</div>
+		</div>
 </body>
 </html>

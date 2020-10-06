@@ -1,14 +1,14 @@
-* {
-	margin: 0;
-	padding: 0;
-    box-sizing: border-box;
-	list-style: none;
-    font-family: Century copperplate;
-}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		list-style: none;
+		font-family: Century copperplate;
+	}
 
-html{
-	background: gray;
-}
+	html{
+		background: gray;
+	}
 
 /*Start of header section*/
 
@@ -68,7 +68,12 @@ header{
 	display: inline-block;
     width: 35%;
 	height: 75%;
-	padding: 4%;
+	padding: 3%;
+}
+
+.inner-container .right-column .welcome{
+	font-size: 1.7rem;
+	font-family: sans-serif;
 }
 
 .inner-container .left-column{
@@ -82,6 +87,48 @@ header{
 	width: 80%;
 	height: 80%;
 	margin: 10%;
+}
+
+span{
+	display: block;
+}
+
+.inner-container .right-column .text1{
+	color: black;
+	font-size: 38px;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 5px;
+	background: white;
+	position: relative;
+	animation: text 3s 1;
+}
+
+.inner-container .right-column .text2{
+	font-size: 30px;
+	color: black;
+	font-weight: 700;
+}
+
+@keyframes text {
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
+
+.weather-container{
+	margin: 10%;
+	width: 60%;
+	height: 30%;
 }
 /*End of the conatiner section in the first page */
 
@@ -118,7 +165,7 @@ header{
 	border: 3px solid #ddd;
 	border-radius: 4px;
 	padding: 1%;
-	margin: 5%;
+	margin: 3%;
 	width: 20%;
   }
   
@@ -126,9 +173,20 @@ header{
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
 
+  .details {
+	color: black;
+	font-size: 1.1rem;
+  }
+
+  .p-detail {
+	color: black;
+	font-size: 1.1rem;
+  }
+
+  
 /*End of introduction in the second page*/
 
-/* Container for header and footer in the second page*/
+/* Container for footer in the second page*/
 .container {
 	position: relative;
 	display: flex;
@@ -138,8 +196,8 @@ header{
   }
   
   
-  /* Container for header and footer  */
-
+  /* End of Container for footer  */
+  
   /*Aligning titles to center*/
   .journey{
 	text-align: center;
